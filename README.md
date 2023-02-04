@@ -33,7 +33,7 @@ deployer.start()
 # Errors:
 
 [Deployer] deployNft error Error: http provider parse response error
-# Возникает, когда деплоишь одну и ту же data для коллекции и нфт (нужно менять данные в json-файлах)
+# Возникает, когда деплоишь одну и ту же data коллекции и нфт (нужно менять данные в json-файлах, потому что дубли неприемлемы)
 
 [TonWeb] Not enough bytes for cells data 
 # Когда загружаем сырую ячейке с помощью fs, класс и метод Cell.fromBoc должны быть из пакет ton, а не из TonWeb,
